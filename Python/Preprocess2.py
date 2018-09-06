@@ -1,3 +1,5 @@
+## This script is used to crop out the facial portion in the training images
+
 import cv2
 import numpy as np 
 import os
