@@ -1,3 +1,5 @@
+## This is script is used to detect the frontal faces from an image
+
 import cv2
 import numpy as np 
 
