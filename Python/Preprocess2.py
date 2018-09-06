@@ -7,7 +7,7 @@ import os
 
 for i in range(1,200):
 	
-	path=f"F:\\Dev\\MLprojects\\Automatic_Checker_System\\{i+1}"
+	path=f""
 	src_files = os.listdir(path)
 	num=1
 	for file in src_files:
@@ -28,13 +28,13 @@ for i in range(1,200):
 		    for (x,y,w,h) in faces:
 		        sub_face= im[y:y+h, x:x+w]
 		        string = f"{i+1}-" + str(num+28)+ '.jpg'
-		        cv2.imwrite(f"F:\\Dev\\MLprojects\\Automatic_Checker_System\\{i+1}\\{string}",sub_face)
+		        cv2.imwrite(f"",sub_face)
 		        num+=1
 		    
 		    for (x,y,w,h) in faces1:
 		        sub_face= im[y:y+h, x:x+w]
 		        string = f"{i+1}-" + str(num+28)+ '.jpg'
-		        cv2.imwrite(f"F:\\Dev\\MLprojects\\Automatic_Checker_System\\{i+1}\\{string}",sub_face)
+		        cv2.imwrite(f"",sub_face)
 		        num+=1		        
 
 		
