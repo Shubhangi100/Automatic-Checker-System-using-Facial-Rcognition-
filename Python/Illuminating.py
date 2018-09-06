@@ -9,7 +9,7 @@ def adjust_gamma(image, gamma=1.0):
 
    return cv2.LUT(image, table)
 
-x = 'F:\\Dev\\MLprojects\\Automatic_Checker_System\\checking\\1-a.jpg'  #location of the image
+x = ''  #location of the image
 original = cv2.imread(x, 1)
 cv2.imshow('original',original)
 
