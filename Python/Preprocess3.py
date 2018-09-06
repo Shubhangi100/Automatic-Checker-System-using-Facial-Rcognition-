@@ -2,7 +2,7 @@ import cv2
 import numpy as np 
 import os
  
-path= 'F:\\Dev\\MLprojects\\Automatic_Checker_System\\checking'
+path= ''
 src_files= os.listdir(path)
 #for files in src_files:
 #	full_path= os.path.join(path,files)
